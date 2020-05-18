@@ -1,0 +1,283 @@
+.logo-link, .logo-link img, .right a {
+    display: block;
+}
+
+.right, .right a {
+    position: relative;
+}
+@font-face {
+    font-family: "PFDinTextCompProMedium";
+    src: url("PFDinTextCompProMedium.ttf");
+}
+body {
+    background: url(../images/main-bg.jpg) center top no-repeat #080f14;
+    background-size: 100%;
+    font-family: CustomFont, PFDinTextCompProLight, Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.add, .bonus, .percent {
+    line-height: 0.8;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 560px;
+    background: url(../images/sports.png) center bottom no-repeat;
+    background-size: 100%;
+    padding: 20px 0 60px 0;
+    margin-bottom: 25px;
+}
+
+.logo-link {
+    width: 277px;
+    margin: 0 auto;
+}
+
+.middle.wrapper {
+    width: 850px;
+    padding: 0 0 100px;
+}
+
+.left {
+    width: 400px;
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.left p {
+    margin: 0;
+}
+
+.percent {
+    font-family: PFDinTextCompProMedium, Tahoma, sans-serif;
+    font-size: 160px;
+}
+
+.bonus {
+    font-size: 115px;
+    color: #7cdd0d;
+    text-transform: uppercase;
+}
+
+.right {
+    width: 440px;
+    height: 280px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    background: url(../images/macbook.png) no-repeat;
+    background-size: 100%;
+    padding-top: 80px;
+}
+
+.right a {
+    z-index: 1;
+    width: 340px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.pointer {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    z-index: 0;
+}
+
+.footer {
+    background-color: #060b0f;
+    padding: 50px 0 40px;
+}
+
+.footer .wrapper {
+    width: 780px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 10px 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+    body {
+        background: url(../images/main-bg.jpg) center top no-repeat #080f14;
+        background-size: 1600px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .add, .bonus, .percent {
+        line-height: 0.8;
+    }
+
+    body {
+        padding: 50px 0 0;
+    }
+
+    .header {
+        height: 460px;
+    }
+
+    .middle.wrapper {
+        width: 850px;
+        padding: 0 0 60px;
+    }
+
+    .left {
+        width: 200px;
+        padding-top: 15px;
+        padding-left: 150px;
+    }
+
+    .percent {
+        font-size: 140px;
+    }
+
+    .bonus {
+        font-size: 100px;
+    }
+
+    .add {
+        font-size: 39px;
+    }
+
+    .right {
+        width: 280px;
+        height: 180px;
+        padding-top: 50px;
+    }
+
+    .right a {
+        width: 200px;
+        height: 60px;
+    }
+
+    .pointer {
+        width: 90px;
+        right: -30px;
+        top: 50%;
+    }
+
+    .footer {
+        padding: 30px 10px 20px
+    }
+
+    .footer .wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 0;
+        background: url(../images/main-bg.jpg) center top no-repeat #080f14;
+        background-size: 1000px
+    }
+
+    .logo-link {
+        width: 220px;
+    }
+
+    .logo-link img {
+        max-width: 100%;
+    }
+
+    .header {
+        height: 350px;
+    }
+
+  .wrapper.header {
+      margin:0;
+  }
+
+    .middle.wrapper {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 20px 40px;
+    }
+
+    .left {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding-left: 0px !important;
+    }
+
+    .right {
+        float: none;
+        margin: 20px auto 0;
+    }
+
+    .percent {
+        font-size: 120px;
+    }
+
+    .bonus {
+        font-size: 80px;
+    }
+    .add {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        height: 260px;
+    }
+
+    .logo-link {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .header {
+        height: 205px;
+    }
+
+    .logo-link {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .percent {
+        font-size: 110px;
+    }
+
+    .bonus {
+        font-size: 70px;
+    }
+
+    .header {
+        padding: 20px 0 35px 0;
+    }
+
+}
